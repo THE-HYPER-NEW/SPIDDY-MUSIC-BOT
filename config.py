@@ -7,30 +7,31 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("16061890"))
+API_HASH = getenv("d63f7116d5db6893251632180b31d69b")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("8113170057:AAHtwjmEM1AmhMiVzMt-hOIkuY-SqUXwJaw")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","iamakki001")
+OWNER_USERNAME = getenv("OWNER_USERNAME","THEHYPER_ACX")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","odsmusicbot")
+BOT_USERNAME = getenv("BOT_USERNAME","SPIDDYXMUSICBOT")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME")
+BOT_NAME = getenv("Spiddy music 🎶")
+")
 # ---------------------------------------------------------
 
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://Thehyper1232:jszZTsxI9MMLE9ut@cluster0.yscc74b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002311769574))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002398177495))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5909658683))
+OWNER_ID = int(getenv("OWNER_ID", 7763229951))
 
 
 # make your bots privacy from telegra.ph and put your url here 
@@ -51,11 +52,11 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SSTXMUSIC_SUPPORT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SST_COMMUNITYY")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ACXBOTZ_UPDATE")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MOVIEFIX4U_DISCUSSION")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -90,21 +91,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/iknaae.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/ja9c68.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/iknaae.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/ja9c68.jpg"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/iknaae.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/fcawaj.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/fcawaj.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/ldvsaa.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/ldvsaa.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/j6vuju.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/ja9c68.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/ldvsaa.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/ldvsaa.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/j6vuju.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/j6vuju.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/ja9c68.jpg"
 
 
 def time_to_seconds(time):
